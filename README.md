@@ -8,6 +8,12 @@ The following are the features of our service:
 
 ---
 
+## Flow
+
+You can checkout the flow diagram here
+
+![flow](./images/flow.png)
+
 ## Overview
 
 Dofigy aims to provide:
