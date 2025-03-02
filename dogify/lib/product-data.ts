@@ -1,0 +1,148 @@
+export interface Product {
+    id: number
+    name: string
+    breed: string
+    price: number
+    originalPrice: number
+    discount: number
+    rating: number
+    reviews: number
+    image: string
+  }
+  
+  export const products: Product[] = [
+    {
+      id: 1,
+      name: "Premium Dog Food - Chicken & Rice Formula",
+      breed: "All Breeds",
+      price: 49.99,
+      originalPrice: 59.99,
+      discount: 17,
+      rating: 4.7,
+      reviews: 128,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 2,
+      name: "Orthopedic Dog Bed - Large",
+      breed: "Large Breeds",
+      price: 89.99,
+      originalPrice: 99.99,
+      discount: 10,
+      rating: 4.5,
+      reviews: 86,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 3,
+      name: "Adjustable Dog Harness - Medium",
+      breed: "Medium Breeds",
+      price: 24.99,
+      originalPrice: 24.99,
+      discount: 0,
+      rating: 4.2,
+      reviews: 42,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 4,
+      name: "Interactive Puzzle Toy",
+      breed: "All Breeds",
+      price: 19.99,
+      originalPrice: 29.99,
+      discount: 33,
+      rating: 4.8,
+      reviews: 65,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 5,
+      name: "Grain-Free Puppy Food - Salmon",
+      breed: "Puppies",
+      price: 54.99,
+      originalPrice: 54.99,
+      discount: 0,
+      rating: 4.6,
+      reviews: 37,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 6,
+      name: "Retractable Dog Leash - 16ft",
+      breed: "All Breeds",
+      price: 34.99,
+      originalPrice: 44.99,
+      discount: 22,
+      rating: 3.9,
+      reviews: 54,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 7,
+      name: "Dental Chew Treats (Pack of 30)",
+      breed: "Small Breeds",
+      price: 18.99,
+      originalPrice: 18.99,
+      discount: 0,
+      rating: 4.3,
+      reviews: 92,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 8,
+      name: "Automatic Water Fountain",
+      breed: "All Breeds",
+      price: 39.99,
+      originalPrice: 49.99,
+      discount: 20,
+      rating: 4.1,
+      reviews: 28,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 9,
+      name: "Senior Dog Vitamin Supplements",
+      breed: "Senior Dogs",
+      price: 29.99,
+      originalPrice: 29.99,
+      discount: 0,
+      rating: 4.4,
+      reviews: 45,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 10,
+      name: "Plush Squeaky Toy Set (3 Pack)",
+      breed: "All Breeds",
+      price: 14.99,
+      originalPrice: 19.99,
+      discount: 25,
+      rating: 4.0,
+      reviews: 73,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 11,
+      name: "Hypoallergenic Shampoo",
+      breed: "Sensitive Breeds",
+      price: 16.99,
+      originalPrice: 16.99,
+      discount: 0,
+      rating: 4.7,
+      reviews: 31,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+    {
+      id: 12,
+      name: "Winter Dog Jacket - Small",
+      breed: "Small Breeds",
+      price: 32.99,
+      originalPrice: 42.99,
+      discount: 23,
+      rating: 4.5,
+      reviews: 19,
+      image: "/placeholder.svg?height=300&width=300",
+    },
+  ]
+  
+  
